@@ -1,0 +1,173 @@
+#ibg1{
+   margin: 5px;
+   margin-right: 5px;
+   background-color: red;
+   max-height: 900px;
+   max-width: 1400px;
+}
+#ibg2{
+    margin: 5px;
+    background-color: red;
+    max-height: 900px;
+    max-width: 1400px;
+ }
+ #ibg3{
+    margin: 5px;
+    background-color: red;
+    max-height: 900px;
+    max-width: 1400px;
+ }
+ #cards{
+     margin-top: 100px;
+     background-image: url(images/bg4.jpg) ;
+ }
+ .innertxt{
+     font-size: 50px;
+ }
+ .flag{
+     max-width: 50px;
+     max-height: 50px;
+     border: 6px solid rgb(241, 11, 11);
+     border-radius: 100px;
+ }
+ #note{
+     font-size: 60px;
+     color: rgb(255, 255, 255);
+     font-family: Impact, Charcoal, sans-serif;
+     text-align: center;
+     border: black solid 5px;
+     background-image: url(images/lady.png);
+     opacity: 1;
+ }
+ .shh{
+     max-width: 1400;
+     max-height: 500;
+ }
+ #para1{
+     font-size: 25px;
+     font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+ #pp{
+     max-height: 400px;
+ }
+
+ @font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+  }
+.bb{
+    background-color: rgb(34, 36, 36);
+    margin: 5px;
+}  
+#ame1{
+    background-color: rgb(82, 85, 82);
+    margin-top: 5px;
+
+}
+
+#whoami
+{
+        font-size: 50px;
+       font-style: italic;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 5px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: rgb(0, 0, 0);
+}
+    #lea{
+      color: whitesmoke;
+    
+    }
+    #bot{
+        color: rgb(0, 0, 0);
+        font-size: 45px;
+        text-underline-position: below;
+        text-decoration: underline 2px;
+        border: 5px solid black;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;  
+    }
+
+    #aboutme{
+        background-color: rgb(150, 224, 150);
+    }
+    .paras{
+        color: black;
+        font-style: italic;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    #php
+    {
+   color: cornsilk;
+    }
+    *{
+        box-sizing:border-box;
+      }
+      
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .container {
+        padding: 64px;
+      }
+      
+      .row:after {
+        content: "";
+        display: table;
+        clear: both
+      }
+      
+      .column-66 {
+        float: left;
+        width: 66.66666%;
+        padding: 20px;
+      }
+      
+      .column-33 {
+        float: left;
+        width: 33.33333%;
+        padding: 20px;
+      }
+      
+      .large-font {
+        font-size: 48px;
+      }
+      
+      .xlarge-font {
+        font-size: 64px
+      }
+      
+      .button {
+          color: rgb(0, 0, 0);
+        border: none;
+        color: white;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #4CAF50;
+      }
+      
+      img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+      }
+      
+      @media screen and (max-width: 1000px) {
+        .column-66,
+        .column-33 {
+          width: 100%;
+          text-align: center;
+        }
+        img {
+          margin: auto;
+        }}
+       
+      
